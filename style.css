@@ -21,7 +21,7 @@ body{
     margin: 0;
     font-size: 150px;
     color: rgba(225, 225, 225, .01);
-    background-image: url("../milky-way-2695569_1920.jpg");
+    background-image: url("./milky-way-2695569_1920.JPG");
     filter: brightness(.9);
     background-repeat: repeat;
     -webkit-background-clip: text;
