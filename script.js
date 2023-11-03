@@ -9,9 +9,9 @@ add_btn.addEventListener('click', addTask);
 function addTask() {
     const ifTask = inputbox.value.trim();
     
-    error_msg.style.display = "none";
+    error_msg.style.display = "block";
     if(! ifTask){
-        error_msg.display = "block"
+        
         setTimeout(() => {
             error_msg.display = "none";
             
