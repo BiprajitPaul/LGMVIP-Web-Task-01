@@ -11,8 +11,9 @@ function addTask() {
     
     error_msg.style.display = "none";
     if(! ifTask){
+        error_msg.display = "block"
         setTimeout(() => {
-            error_msg.display = "block";
+            error_msg.display = "none";
             
         }, 200);
         return;
